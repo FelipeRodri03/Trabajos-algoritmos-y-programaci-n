@@ -11,5 +11,4 @@ b=int(input("Digite edad 2: "))
 c=int(input("Digite edad 3; "))
 #caja negra
 d=(a+b+c)/(3)
-#salidas
 print("El promedio es: "+str(d))

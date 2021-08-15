@@ -1,12 +1,10 @@
-"""
+""""
 Entradas
-Valor-->float-->v
+Capital-->int-->a
 Salidas
-Precio total-->float-->p
+Ganancia total-->int-->b
 """
-v=float(input("Digite el valor de la compra:"))
-#Caja Negra
-d=v*0.15
-p=v-d
-#Salidas
-print("El valor total de la compra es: "+str(p))
+a=int(input("Digite la cantidad de capital: "))
+#caja negra
+b=a*0.02
+print("La cantidad que ganará es: ", b)
